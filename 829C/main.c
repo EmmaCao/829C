@@ -7,11 +7,11 @@
 //
 
 #include <stdio.h>
-#include "polynomialAddition.h"
+#include "wengkai/GPSDataProcessing.h"
 
 int main(int argc, const char * argv[]) {
     
-    polynomialAddition();
+    GPSDataProcessing();
     
     return 0;
 }

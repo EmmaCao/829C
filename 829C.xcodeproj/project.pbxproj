@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B56D65C02293A50C00DDE675 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65BF2293A50C00DDE675 /* main.c */; };
-		B56D65D02293A81E00DDE675 /* highPrecisionDecimal.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65CF2293A81E00DDE675 /* highPrecisionDecimal.c */; };
-		B56D65D32293ADF300DDE675 /* polynomialAddition.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65D22293ADF300DDE675 /* polynomialAddition.c */; };
+		B56D65F22293EF8F00DDE675 /* wordLength.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65E92293EF8E00DDE675 /* wordLength.c */; };
+		B56D65F32293EF8F00DDE675 /* polynomialAddition.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EB2293EF8E00DDE675 /* polynomialAddition.c */; };
+		B56D65F42293EF8F00DDE675 /* saddlePoint.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EC2293EF8E00DDE675 /* saddlePoint.c */; };
+		B56D65F52293EF8F00DDE675 /* GPSDataProcessing.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EE2293EF8E00DDE675 /* GPSDataProcessing.c */; };
+		B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EF2293EF8E00DDE675 /* highPrecisionDecimal.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +30,16 @@
 /* Begin PBXFileReference section */
 		B56D65BC2293A50C00DDE675 /* 829C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 829C; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D65BF2293A50C00DDE675 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		B56D65CE2293A81E00DDE675 /* highPrecisionDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = highPrecisionDecimal.h; sourceTree = "<group>"; };
-		B56D65CF2293A81E00DDE675 /* highPrecisionDecimal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = highPrecisionDecimal.c; sourceTree = "<group>"; };
-		B56D65D12293ADF300DDE675 /* polynomialAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = polynomialAddition.h; sourceTree = "<group>"; };
-		B56D65D22293ADF300DDE675 /* polynomialAddition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = polynomialAddition.c; sourceTree = "<group>"; };
+		B56D65E82293EF8E00DDE675 /* polynomialAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polynomialAddition.h; sourceTree = "<group>"; };
+		B56D65E92293EF8E00DDE675 /* wordLength.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordLength.c; sourceTree = "<group>"; };
+		B56D65EA2293EF8E00DDE675 /* highPrecisionDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highPrecisionDecimal.h; sourceTree = "<group>"; };
+		B56D65EB2293EF8E00DDE675 /* polynomialAddition.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polynomialAddition.c; sourceTree = "<group>"; };
+		B56D65EC2293EF8E00DDE675 /* saddlePoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = saddlePoint.c; sourceTree = "<group>"; };
+		B56D65ED2293EF8E00DDE675 /* saddlePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saddlePoint.h; sourceTree = "<group>"; };
+		B56D65EE2293EF8E00DDE675 /* GPSDataProcessing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GPSDataProcessing.c; sourceTree = "<group>"; };
+		B56D65EF2293EF8E00DDE675 /* highPrecisionDecimal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = highPrecisionDecimal.c; sourceTree = "<group>"; };
+		B56D65F02293EF8E00DDE675 /* GPSDataProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSDataProcessing.h; sourceTree = "<group>"; };
+		B56D65F12293EF8E00DDE675 /* wordLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordLength.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +73,26 @@
 			isa = PBXGroup;
 			children = (
 				B56D65BF2293A50C00DDE675 /* main.c */,
-				B56D65CE2293A81E00DDE675 /* highPrecisionDecimal.h */,
-				B56D65CF2293A81E00DDE675 /* highPrecisionDecimal.c */,
-				B56D65D12293ADF300DDE675 /* polynomialAddition.h */,
-				B56D65D22293ADF300DDE675 /* polynomialAddition.c */,
+				B56D65F72293EFA700DDE675 /* wengkai */,
 			);
 			path = 829C;
+			sourceTree = "<group>";
+		};
+		B56D65F72293EFA700DDE675 /* wengkai */ = {
+			isa = PBXGroup;
+			children = (
+				B56D65F02293EF8E00DDE675 /* GPSDataProcessing.h */,
+				B56D65EE2293EF8E00DDE675 /* GPSDataProcessing.c */,
+				B56D65EA2293EF8E00DDE675 /* highPrecisionDecimal.h */,
+				B56D65EF2293EF8E00DDE675 /* highPrecisionDecimal.c */,
+				B56D65E82293EF8E00DDE675 /* polynomialAddition.h */,
+				B56D65EB2293EF8E00DDE675 /* polynomialAddition.c */,
+				B56D65ED2293EF8E00DDE675 /* saddlePoint.h */,
+				B56D65EC2293EF8E00DDE675 /* saddlePoint.c */,
+				B56D65F12293EF8E00DDE675 /* wordLength.h */,
+				B56D65E92293EF8E00DDE675 /* wordLength.c */,
+			);
+			path = wengkai;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56D65D02293A81E00DDE675 /* highPrecisionDecimal.c in Sources */,
 				B56D65C02293A50C00DDE675 /* main.c in Sources */,
-				B56D65D32293ADF300DDE675 /* polynomialAddition.c in Sources */,
+				B56D65F42293EF8F00DDE675 /* saddlePoint.c in Sources */,
+				B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */,
+				B56D65F22293EF8F00DDE675 /* wordLength.c in Sources */,
+				B56D65F32293EF8F00DDE675 /* polynomialAddition.c in Sources */,
+				B56D65F52293EF8F00DDE675 /* GPSDataProcessing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

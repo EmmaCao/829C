@@ -7,11 +7,11 @@
 //
 
 #include <stdio.h>
-#include "highPrecisionDecimal.h"
+#include "polynomialAddition.h"
 
 int main(int argc, const char * argv[]) {
     
-    highPrecisionDecimal();
+    polynomialAddition();
     
     return 0;
 }

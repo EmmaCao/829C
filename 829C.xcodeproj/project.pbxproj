@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B56D65C02293A50C00DDE675 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65BF2293A50C00DDE675 /* main.c */; };
 		B56D65D02293A81E00DDE675 /* highPrecisionDecimal.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65CF2293A81E00DDE675 /* highPrecisionDecimal.c */; };
+		B56D65D32293ADF300DDE675 /* polynomialAddition.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65D22293ADF300DDE675 /* polynomialAddition.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B56D65BF2293A50C00DDE675 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B56D65CE2293A81E00DDE675 /* highPrecisionDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = highPrecisionDecimal.h; sourceTree = "<group>"; };
 		B56D65CF2293A81E00DDE675 /* highPrecisionDecimal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = highPrecisionDecimal.c; sourceTree = "<group>"; };
+		B56D65D12293ADF300DDE675 /* polynomialAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = polynomialAddition.h; sourceTree = "<group>"; };
+		B56D65D22293ADF300DDE675 /* polynomialAddition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = polynomialAddition.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				B56D65BF2293A50C00DDE675 /* main.c */,
 				B56D65CE2293A81E00DDE675 /* highPrecisionDecimal.h */,
 				B56D65CF2293A81E00DDE675 /* highPrecisionDecimal.c */,
+				B56D65D12293ADF300DDE675 /* polynomialAddition.h */,
+				B56D65D22293ADF300DDE675 /* polynomialAddition.c */,
 			);
 			path = 829C;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				B56D65D02293A81E00DDE675 /* highPrecisionDecimal.c in Sources */,
 				B56D65C02293A50C00DDE675 /* main.c in Sources */,
+				B56D65D32293ADF300DDE675 /* polynomialAddition.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

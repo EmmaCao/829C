@@ -13,6 +13,7 @@
 		B56D65F42293EF8F00DDE675 /* saddlePoint.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EC2293EF8E00DDE675 /* saddlePoint.c */; };
 		B56D65F52293EF8F00DDE675 /* GPSDataProcessing.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EE2293EF8E00DDE675 /* GPSDataProcessing.c */; };
 		B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EF2293EF8E00DDE675 /* highPrecisionDecimal.c */; };
+		B5D5499F2297C0E4007B2954 /* searchString.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D5499E2297C0E4007B2954 /* searchString.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		B56D65EF2293EF8E00DDE675 /* highPrecisionDecimal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = highPrecisionDecimal.c; sourceTree = "<group>"; };
 		B56D65F02293EF8E00DDE675 /* GPSDataProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSDataProcessing.h; sourceTree = "<group>"; };
 		B56D65F12293EF8E00DDE675 /* wordLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordLength.h; sourceTree = "<group>"; };
+		B5D5499D2297C0E4007B2954 /* searchString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchString.h; sourceTree = "<group>"; };
+		B5D5499E2297C0E4007B2954 /* searchString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = searchString.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B54A4D9F2295523100657789 /* wengkaiAdvanced */ = {
+			isa = PBXGroup;
+			children = (
+				B5D5499D2297C0E4007B2954 /* searchString.h */,
+				B5D5499E2297C0E4007B2954 /* searchString.c */,
+			);
+			path = wengkaiAdvanced;
+			sourceTree = "<group>";
+		};
 		B56D65B32293A50C00DDE675 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +84,7 @@
 		B56D65BE2293A50C00DDE675 /* 829C */ = {
 			isa = PBXGroup;
 			children = (
+				B54A4D9F2295523100657789 /* wengkaiAdvanced */,
 				B56D65BF2293A50C00DDE675 /* main.c */,
 				B56D65F72293EFA700DDE675 /* wengkai */,
 			);
@@ -155,6 +168,7 @@
 				B56D65F42293EF8F00DDE675 /* saddlePoint.c in Sources */,
 				B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */,
 				B56D65F22293EF8F00DDE675 /* wordLength.c in Sources */,
+				B5D5499F2297C0E4007B2954 /* searchString.c in Sources */,
 				B56D65F32293EF8F00DDE675 /* polynomialAddition.c in Sources */,
 				B56D65F52293EF8F00DDE675 /* GPSDataProcessing.c in Sources */,
 			);

@@ -7,11 +7,11 @@
 //
 
 #include <stdio.h>
-#include "wengkai/GPSDataProcessing.h"
+#include "wengkaiAdvanced/searchString.h"
 
-int main(int argc, const char * argv[]) {
-    
-    GPSDataProcessing();
+int main()
+{
+    searchString();
     
     return 0;
 }

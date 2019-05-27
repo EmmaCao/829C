@@ -14,6 +14,7 @@
 		B56D65F52293EF8F00DDE675 /* GPSDataProcessing.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EE2293EF8E00DDE675 /* GPSDataProcessing.c */; };
 		B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EF2293EF8E00DDE675 /* highPrecisionDecimal.c */; };
 		B5D5499F2297C0E4007B2954 /* searchString.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D5499E2297C0E4007B2954 /* searchString.c */; };
+		B5E412FC229B72B2008C0E72 /* Array.c in Sources */ = {isa = PBXBuildFile; fileRef = B5E412FB229B72B2008C0E72 /* Array.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		B56D65F12293EF8E00DDE675 /* wordLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordLength.h; sourceTree = "<group>"; };
 		B5D5499D2297C0E4007B2954 /* searchString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchString.h; sourceTree = "<group>"; };
 		B5D5499E2297C0E4007B2954 /* searchString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = searchString.c; sourceTree = "<group>"; };
+		B5E412FA229B72B2008C0E72 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		B5E412FB229B72B2008C0E72 /* Array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Array.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			children = (
 				B5D5499D2297C0E4007B2954 /* searchString.h */,
 				B5D5499E2297C0E4007B2954 /* searchString.c */,
+				B5E412FA229B72B2008C0E72 /* Array.h */,
+				B5E412FB229B72B2008C0E72 /* Array.c */,
 			);
 			path = wengkaiAdvanced;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				B5D5499F2297C0E4007B2954 /* searchString.c in Sources */,
 				B56D65F32293EF8F00DDE675 /* polynomialAddition.c in Sources */,
 				B56D65F52293EF8F00DDE675 /* GPSDataProcessing.c in Sources */,
+				B5E412FC229B72B2008C0E72 /* Array.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

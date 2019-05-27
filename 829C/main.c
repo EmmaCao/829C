@@ -7,11 +7,14 @@
 //
 
 #include <stdio.h>
-#include "wengkaiAdvanced/searchString.h"
+#include "wengkaiAdvanced/Array.h"
 
-int main()
+int main(int argc, char const *argv[])
 {
-    searchString();
+    Array a = array_create(100);
+    array_free(&a);
+    
+
     
     return 0;
 }

@@ -15,6 +15,7 @@
 		B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */ = {isa = PBXBuildFile; fileRef = B56D65EF2293EF8E00DDE675 /* highPrecisionDecimal.c */; };
 		B5D5499F2297C0E4007B2954 /* searchString.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D5499E2297C0E4007B2954 /* searchString.c */; };
 		B5E412FC229B72B2008C0E72 /* Array.c in Sources */ = {isa = PBXBuildFile; fileRef = B5E412FB229B72B2008C0E72 /* Array.c */; };
+		B5E412FF229B82C9008C0E72 /* Node.c in Sources */ = {isa = PBXBuildFile; fileRef = B5E412FE229B82C9008C0E72 /* Node.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		B5D5499E2297C0E4007B2954 /* searchString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = searchString.c; sourceTree = "<group>"; };
 		B5E412FA229B72B2008C0E72 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		B5E412FB229B72B2008C0E72 /* Array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Array.c; sourceTree = "<group>"; };
+		B5E412FD229B82C9008C0E72 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		B5E412FE229B82C9008C0E72 /* Node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Node.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				B5D5499E2297C0E4007B2954 /* searchString.c */,
 				B5E412FA229B72B2008C0E72 /* Array.h */,
 				B5E412FB229B72B2008C0E72 /* Array.c */,
+				B5E412FD229B82C9008C0E72 /* Node.h */,
+				B5E412FE229B82C9008C0E72 /* Node.c */,
 			);
 			path = wengkaiAdvanced;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				B56D65C02293A50C00DDE675 /* main.c in Sources */,
 				B56D65F42293EF8F00DDE675 /* saddlePoint.c in Sources */,
 				B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */,
+				B5E412FF229B82C9008C0E72 /* Node.c in Sources */,
 				B56D65F22293EF8F00DDE675 /* wordLength.c in Sources */,
 				B5D5499F2297C0E4007B2954 /* searchString.c in Sources */,
 				B56D65F32293EF8F00DDE675 /* polynomialAddition.c in Sources */,

@@ -7,14 +7,12 @@
 //
 
 #include <stdio.h>
-#include "wengkaiAdvanced/Array.h"
 
 int main(int argc, char const *argv[])
 {
-    Array a = array_create(100);
-    array_free(&a);
-    
 
-    
     return 0;
 }
+
+
+

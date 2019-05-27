@@ -7,12 +7,11 @@
 //
 
 #include <stdio.h>
+#include "wengkaiAdvanced/ReverseOutput.h"
 
 int main(int argc, char const *argv[])
 {
+    reverseOutput();
 
     return 0;
 }
-
-
-

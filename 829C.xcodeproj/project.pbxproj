@@ -16,6 +16,7 @@
 		B5D5499F2297C0E4007B2954 /* searchString.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D5499E2297C0E4007B2954 /* searchString.c */; };
 		B5E412FC229B72B2008C0E72 /* Array.c in Sources */ = {isa = PBXBuildFile; fileRef = B5E412FB229B72B2008C0E72 /* Array.c */; };
 		B5E412FF229B82C9008C0E72 /* Node.c in Sources */ = {isa = PBXBuildFile; fileRef = B5E412FE229B82C9008C0E72 /* Node.c */; };
+		B5E41305229BC1E2008C0E72 /* ReverseOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = B5E41304229BC1E2008C0E72 /* ReverseOutput.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		B5E412FB229B72B2008C0E72 /* Array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Array.c; sourceTree = "<group>"; };
 		B5E412FD229B82C9008C0E72 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		B5E412FE229B82C9008C0E72 /* Node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Node.c; sourceTree = "<group>"; };
+		B5E41303229BC1E2008C0E72 /* ReverseOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseOutput.h; sourceTree = "<group>"; };
+		B5E41304229BC1E2008C0E72 /* ReverseOutput.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReverseOutput.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				B5E412FB229B72B2008C0E72 /* Array.c */,
 				B5E412FD229B82C9008C0E72 /* Node.h */,
 				B5E412FE229B82C9008C0E72 /* Node.c */,
+				B5E41303229BC1E2008C0E72 /* ReverseOutput.h */,
+				B5E41304229BC1E2008C0E72 /* ReverseOutput.c */,
 			);
 			path = wengkaiAdvanced;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				B56D65F62293EF8F00DDE675 /* highPrecisionDecimal.c in Sources */,
 				B5E412FF229B82C9008C0E72 /* Node.c in Sources */,
 				B56D65F22293EF8F00DDE675 /* wordLength.c in Sources */,
+				B5E41305229BC1E2008C0E72 /* ReverseOutput.c in Sources */,
 				B5D5499F2297C0E4007B2954 /* searchString.c in Sources */,
 				B56D65F32293EF8F00DDE675 /* polynomialAddition.c in Sources */,
 				B56D65F52293EF8F00DDE675 /* GPSDataProcessing.c in Sources */,
